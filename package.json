@@ -1,0 +1,19 @@
+{
+  "name": "jsonresume-to-docx",
+  "version": "0.1.0",
+  "description": "Enables conversion of a JSON Resume to a .docx file based on a template",
+  "author": "Christopher Eagan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceagan/jsonresume-docx-templates"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@jsonresume/schema": "1.2.1",
+    "docx-templates": "4.13.0"
+  }
+}
